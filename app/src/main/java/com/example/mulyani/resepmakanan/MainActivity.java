@@ -1,21 +1,14 @@
 package com.example.mulyani.resepmakanan;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.widget.ImageView;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-//    ImageView imgGambar;
-//    TextView namaJudul;
-//    TextView namaDeskripsi;
-//    TextView bahanResep;
-//    TextView caramembuat;
     RecyclerView recyclerView;
 
 
@@ -23,13 +16,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        imgGambar = (ImageView)findViewById(R.id.gambar);
-//        namaJudul = (TextView)findViewById(R.id.txt_judul);
-//        namaDeskripsi = (TextView)findViewById(R.id.txt_deskripsi);
-//        bahanResep = (TextView)findViewById(R.id.bahan);
-//        caramembuat = (TextView)findViewById(R.id.caramembuat);
 
-        recyclerView = (RecyclerView)findViewById(R.id.RvResep);
+        recyclerView = findViewById(R.id.RvResep);
 
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);

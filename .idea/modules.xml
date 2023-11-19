@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ResepMakanan.iml" filepath="$PROJECT_DIR$/ResepMakanan.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ResepMakanan.iml" filepath="$PROJECT_DIR$/.idea/modules/ResepMakanan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ResepMakanan.app.unitTest.iml" />
     </modules>
   </component>
 </project>

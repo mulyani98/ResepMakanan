@@ -2,12 +2,13 @@ package com.example.mulyani.resepmakanan;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
@@ -46,7 +47,7 @@ public class ResepAdapter extends RecyclerView.Adapter
     }
 
     @Override
-    public void onBindViewHolder(ResepAdapter.ResepViewHolder holder, final int position) {
+    public void onBindViewHolder(ResepAdapter.ResepViewHolder holder,int position) {
         holder.imgGambar.setImageResource(resep.get(position).getImgGambar());
         holder.namaJudul.setText(resep.get(position).getNamaJudul());
         holder.namaDeskripsi.setText(resep.get(position).getNamaDeskripsi());
